@@ -6,22 +6,21 @@
     <title>Welcome - Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- Loading Animation -->
     <div class="loading-animation">
-         <div class="loading-spinner"></div> 
+        <div class="loading-spinner"></div>
     </div>
 
     <header>
         <nav>
             <h1>Fartun Ali</h1>
             <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/about/index.html">About</a></li>
-                <li><a href="/about/contact/project/index.html">Projects</a></li>
-                <li><a href="/about/contact/index.html">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -64,44 +63,38 @@
         </div>
       
         <!-- Hero Section -->
-        <section class="hero scroll-reveal" data-aos="fade-left"data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine">
-            <p data-aos="fade-up">Hi I'm Fartun ALI </p>
+        <section class="hero scroll-reveal">
+            <p>Hi I'm Fartun ALI </p>
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1 class="hero-title"data-aos="fade-right">Professional Web Developer</h1>
+                    <h1 class="hero-title">Professional Web Developer</h1>
                     <p class="hero-subtitle">Crafting innovative digital solutions with modern technologies</p>
                     <div class="hero-buttons">
                         <a href="#featured-work" class="primary-btn">View Portfolio</a>
+                        <a href="contact.html" class="secondary-btn">Get in Touch</a>
                     </div>
-                    <!-- <a href="/about/contact/index.html" class="secondary-btn">Get in Touch</a> -->
                 </div>
-                <div class="hero-image" data-aos="fade-up" >
+                <div class="hero-image">
                     <img src="image/picture 2.jpg" alt="Professional Profile Photo" class="profile-img">
                 </div>
             </div>
         </section>
 
         <!-- Services Section -->
-        <section class="services scroll-reveal" id="services" data-aos="fade-right">
-            <!-- <h2x>Services</h2> -->
+        <section class="services scroll-reveal" id="services">
+            <h2>Services</h2>
             <div class="services-grid">
-                <div class="service-card" data-aos="fade-right" data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine">
+                <div class="service-card">
                     <i class="fas fa-code"></i>
                     <h3>Web Development</h3>
                     <p>Building responsive and dynamic websites with modern frameworks and clean code.</p>
                 </div>
-                <div class="service-card" data-aos="zoom-in">
+                <div class="service-card">
                     <i class="fas fa-mobile-alt"></i>
                     <h3>Mobile Development</h3>
                     <p>Creating native and cross-platform mobile applications for iOS and Android.</p>
                 </div>
-                <div class="service-card"  data-aos="fade-left"data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine">
+                <div class="service-card">
                     <i class="fas fa-paint-brush"></i>
                     <h3>UI/UX Design</h3>
                     <p>Designing beautiful and user-friendly interfaces that deliver exceptional experiences.</p>
@@ -115,7 +108,7 @@
             <div class="featured-grid">
                 <div class="featured-card">
                     <div class="featured-image">
-                        <img src="image/modren ecomerse.jpg" alt="E-commerce Project">
+                        <img src="project1.jpg" alt="E-commerce Project">
                     </div>
                     <div class="featured-info">
                         <h3>Modern E-commerce Platform</h3>
@@ -125,7 +118,7 @@
                 </div>
                 <div class="featured-card">
                     <div class="featured-image">
-                        <img src="image/learnn system.jpg" alt="Learning App Project">
+                        <img src="project2.jpg" alt="Learning App Project">
                     </div>
                     <div class="featured-info">
                         <h3>Learning Management System</h3>
@@ -185,7 +178,7 @@
             <div class="cta-content">
                 <h2>Start Your Project</h2>
                 <p>Ready to bring your ideas to life? Let's create something extraordinary together.</p>
-                <a href="/about/contact/index.html" class="cta-button">Contact Now</a>
+                <a href="contact.html" class="cta-button">Contact Now</a>
             </div>
         </section>
     </main>
@@ -226,9 +219,5 @@
             }, 2500);
         });
     </script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
 </body>
 </html> 
